@@ -1,0 +1,4 @@
+page at location '/' does not work without redis running
+
+to start redis execute following command:
+docker run -it --rm --name redis -p 6379:6379 redis
